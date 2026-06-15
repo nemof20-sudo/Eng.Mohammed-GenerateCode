@@ -1,0 +1,5 @@
+At index 28644 (opening):
+زر الذي تختاره كاختصار للرسالة الترحيبية (زر واحد فقط)."})]})]});case 2:return(0,a.jsxs)("div",{className:"flex flex-col gap-4",children:[(0,a.jsx)(S,{className:"bg-transparent border-0 shadow-none",children:(0,a.jsxs)(_,{className:"p-0 grid grid-cols-1 md:grid-cols-2 gap-6",children:[(0,a.jsxs)("di
+
+At index 33321 (closing):
+morphic-shadow-sm active:neumorphic-shadow-inset-sm",children:"حفظ التعديل"}),(0,a.jsx)(A,{variant:"ghost",onClick:()=>ew(!1),children:"إلغاء"})]})]})]})]})}),(0,a.jsx)("div",{className:"flex items-center justify-center pt-2",children:(0,a.jsxs)(eo,{onClick:eG,className:"px-8 py-6 text-base",childre

@@ -1,0 +1,8 @@
+Match 'التالي' at 14793:
+احتجتم لاي مساعدة او توضيح حول استخدام التطبيق يسعدنا خدمتكم و تقديم الدعم الازم.","بإمكان حضراتكم اعادة توصيل الطلب عن طريق التطبيق حصرا عبر الخطوات التالية 1- الدخول إلى خانة مشاكل التوصيل والضغط على خيار (بانتظار إجراء التاجر). 2- اختيار الطلب المراد تحويله، ثم النقر على إعادة التوصيل. 3- بعد ذلك اضغط 
+
+Match 'السابق' at 42188:
+e",onClick:()=>{U>1&&I(e=>e-1)},className:"bg-background text-foreground hover:bg-background/90",children:[(0,a.jsx)(b.A,{className:"ml-2 h-5 w-5"}),"السابق"]}):(0,a.jsx)("div",{}),U<3?(0,a.jsxs)(eo,{onClick:()=>{if(1===U){if(!eI)return void e({variant:"destructive",title:"تنبيه",description:"يرجى إدخال ا
+
+Match 'التالي' at 42501:
+يل زر للرسالة الترحيبية."});Q(G),eS(G.trim().replace(/\s+/g,"")||"user")}L.includes(U)||F(e=>[...e,U]),U<3&&I(e=>e+1)},disabled:1===U&&!eI,children:["التالي",(0,a.jsx)(j.A,{className:"mr-2 h-5 w-5"})]}):(0,a.jsx)("div",{})]})]})}),(0,a.jsx)(et,{open:eD,onOpenChange:eU,children:(0,a.jsxs)(er,{className:"ne

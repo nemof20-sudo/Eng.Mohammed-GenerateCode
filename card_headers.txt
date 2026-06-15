@@ -1,0 +1,26 @@
+Match 'CardHeader' at 3250:
+forwardRef((e,t)=>{let{className:s,...r}=e;return(0,a.jsx)("div",{ref:t,className:(0,k.cn)("flex flex-col space-y-1.5 p-6",s),...r})});E.displayName="CardHeader";let R=r.forwardRef((e,t)=>{let{className:s,...r}=e;return(0,a.jsx)("h3",{ref:t,className:(0,k.cn)("text-2xl font-semibold leading-none tracking-tigh
+
+Match 'CardTitle' at 3440:
+et{className:s,...r}=e;return(0,a.jsx)("h3",{ref:t,className:(0,k.cn)("text-2xl font-semibold leading-none tracking-tight",s),...r})});R.displayName="CardTitle";let T=r.forwardRef((e,t)=>{let{className:s,...r}=e;return(0,a.jsx)("p",{ref:t,className:(0,k.cn)("text-sm text-muted-foreground",s),...r})});T.displ
+
+Match '(r,' at 25462:
+الاختصارات\n"),t+="".concat(eM.hotkey,"::\n"),t+="Gui, Font, s10, Cairo\n",t+="Gui, Add, Edit, w400 h".concat(n," vMyEdit readonly -VScroll, ").concat(r,"\n"),t+="Gui, Show, , ".concat("Eng.Mohammed Hotkeys Guide","\n"),t+="return\n\n",t+="GuiClose:\nGui, Destroy\nreturn\n\n"}if(W&&ee){let e=eF.replace
+
+Match '(r,' at 26754:
+bg-green-500 border-green-600 text-white":"bg-card border-border text-muted-foreground"),children:i&&!l?(0,a.jsx)(n.A,{className:"w-6 h-6"}):(0,a.jsx)(r,{className:"w-6 h-6"})}),(0,a.jsx)("h3",{className:(0,k.cn)("text-sm font-semibold text-center mt-1",l?"text-primary":"text-white"),children:s})]})},e
+
+Match '(r,' at 27260:
+ld text-foreground bg-background rounded-sm",children:t})};return s.length>1?(0,a.jsxs)("div",{className:"flex items-center gap-1",children:[(0,a.jsx)(r,{children:s[0]}),(0,a.jsx)("span",{className:"text-muted-foreground text-xs",children:"+"}),(0,a.jsx)(r,{children:s[1]})]}):(0,a.jsx)(r,{children:t})}
+
+Match '(r,' at 27364:
+:"flex items-center gap-1",children:[(0,a.jsx)(r,{children:s[0]}),(0,a.jsx)("span",{className:"text-muted-foreground text-xs",children:"+"}),(0,a.jsx)(r,{children:s[1]})]}):(0,a.jsx)(r,{children:t})},eZ=e=>{switch(e){case 1:return(0,a.jsxs)("div",{className:"grid gap-8 mt-8 max-w-md mx-auto",children:[
+
+Match '(r,' at 27396:
+ren:[(0,a.jsx)(r,{children:s[0]}),(0,a.jsx)("span",{className:"text-muted-foreground text-xs",children:"+"}),(0,a.jsx)(r,{children:s[1]})]}):(0,a.jsx)(r,{children:t})},eZ=e=>{switch(e){case 1:return(0,a.jsxs)("div",{className:"grid gap-8 mt-8 max-w-md mx-auto",children:[(0,a.jsxs)("div",{children:[(0,a
+
+Match '(R,' at 32561:
+assName:"ml-2 h-5 w-5"}),"إضافة الاختصار للقائمة"]})}),(0,a.jsxs)(ec,{className:"mt-4",children:[(0,a.jsx)(E,{className:"py-3 px-4",children:(0,a.jsx)(R,{className:"text-base",children:"قائمة اختصاراتك"})}),(0,a.jsx)(_,{children:(0,a.jsx)("div",{className:"space-y-3",children:0!==ea.length||ee?(0,a.jsx
+
+Match '(R,' at 41067:
+)]})]})]}):(0,a.jsxs)(ec,{className:"w-full max-w-4xl mx-auto overflow-hidden",children:[(0,a.jsxs)(E,{className:"text-center p-6",children:[(0,a.jsx)(R,{className:"text-3xl font-headline text-white",children:"مولد اختصارات Eng.Mohammed GenerateCode"}),(0,a.jsx)(T,{children:"اتبع الخطوات لتوليد ملف الا

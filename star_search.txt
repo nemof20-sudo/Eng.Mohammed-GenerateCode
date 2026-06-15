@@ -1,0 +1,51 @@
+Match '*' at 18794:
+-md bg-card text-card-foreground",s),...r,children:t})};
+function parseAHK(fileContent){
+  var username="";
+  var usernameMatch=fileContent.match(/;\s*\u0633\u0643\u0631\u0628\u062a \u0627\u0644\u0631\u062f\u0648\u062f \u0627\u0644\u0633\u0631\u064a\u0639\u0629\s*-\s*(.+)/);
+  if(usernameMatch){usern
+
+Match '*' at 18907:
+ usernameMatch=fileContent.match(/;\s*\u0633\u0643\u0631\u0628\u062a \u0627\u0644\u0631\u062f\u0648\u062f \u0627\u0644\u0633\u0631\u064a\u0639\u0629\s*-\s*(.+)/);
+  if(usernameMatch){username=usernameMatch[1].trim();}
+  function getDisplay(hotkey){
+    var m="",k=hotkey;
+    if(hotkey[0]=="^"){m="Ctr
+
+Match '*' at 18911:
+rnameMatch=fileContent.match(/;\s*\u0633\u0643\u0631\u0628\u062a \u0627\u0644\u0631\u062f\u0648\u062f \u0627\u0644\u0633\u0631\u064a\u0639\u0629\s*-\s*(.+)/);
+  if(usernameMatch){username=usernameMatch[1].trim();}
+  function getDisplay(hotkey){
+    var m="",k=hotkey;
+    if(hotkey[0]=="^"){m="Ctrl";k
+
+Match '*' at 19588:
+i++){
+    var line=lines[i].trim();
+    if(!line)continue;
+    if(line[0]==";"){
+      if(line.indexOf("===")>=0)continue;
+      cc=line.replace(/^;\s*/,"").trim();continue;
+    }
+    if(!inB&&line.indexOf("::")>=0){bh=line.split("::")[0].trim();inB=true;bl=[];continue;}
+    if(inB){
+      if(line===
+
+Match '*' at 20212:
+  var msg="";
+          var sl=bl.find(function(l){return l.indexOf("Send,")===0||l.indexOf("Send ")===0;});
+          if(sl)msg=sl.replace(/^Send,?\s*/,"").trim();
+          if(cc.indexOf("\u0631\u0633\u0627\u0644\u0629 \u0627\u0644\u062a\u0631\u062d\u064a\u0628")>=0||msg.indexOf("\u0627\u0647\u0644
+
+Match '*' at 25261:
+y.localeCompare(t.display)).map(e=>"الاختصار: ".concat(e.display," - ").concat(e.message)),a=(ee?[e]:[]).concat(s),r=a.join("`n"),n=Math.min(600,30+20*a.length);t+="; ".concat(eM.display," - عرض قائمة الاختصارات\n"),t+="".concat(eM.hotkey,"::\n"),t+="Gui, Font, s10, Cairo\n",t+="Gui, Add, Edit, w400 
+
+Match '*' at 41529:
+nslate-y-1/2",children:(0,a.jsx)("div",{className:"absolute top-0 left-0 h-full bg-primary transition-all duration-500",style:{width:"".concat((U-1)/2*100,"%")}})}),(0,a.jsxs)("div",{className:"relative flex justify-around",children:[(0,a.jsx)(eJ,{stepNumber:1,title:"المستخدم",Icon:l.A}),(0,a.jsx)(eJ
+
+
+Context of welcome-hotkey-btn:
+aceholder:"مثال: محمد حسن",value:G,onChange:e=>J(e.target.value),className:"pl-10 text-base py-6 bg-background/70 neumorphic-shadow-inset-sm"})]})]}),(0,a.jsxs)("div",{children:[(0,a.jsx)(z,{htmlFor:"welcome-hotkey-btn",className:"text-lg font-semibold text-foreground/80",children:"اختصار الرسالة الترحيبية"}),(0,a.jsxs)(eo,{id:"welcome-hotkey-btn",className:"w-full mt-2",onClick:()=>eR("welcome"),disabled:"welcome"===eE,children:[(0,a.jsx)(i.A,{className:"ml-2 h-5 w-5"}),"welcome"===eE?"... بانتظار الضغط":ee?ee.display:"اضغط هنا لتسجيل الزر"]}),(0,a.jsx)("p",{className:"text-xs text-muted-foreground mt-2",children:"سيتم استخدام الزر الذي تختاره كاختصار للرسالة الترحيبية (زر واحد فقط)."})]})]});case 2:return(0,a.jsxs)("div",{className:"flex flex-col gap-4",children:[(0,a.jsx)(S,{className:"bg-transparent border-0 shadow-none",children:(0,a.jsxs)(_,{className:"p-0 grid grid-cols-1 md:grid-cols-2 gap-6",children:[(0,a.jsxs)("div",{children:[(0,a.jsx)("h3",{className:"text-lg font-semibold
+
+Context of guide-hotkey-btn:
+:"h-5 w-5 text-primary"}),"إضافة زر لعرض دليل الاختصارات؟"]}),(0,a.jsx)($,{id:"add-guide-switch",checked:eT,onCheckedChange:e_})]}),eT&&(0,a.jsxs)("div",{className:"mt-4",children:[(0,a.jsxs)(eo,{id:"guide-hotkey-btn",className:"w-full mt-2",onClick:()=>eR("guide"),disabled:"guide"===eE,children:[(0,a.jsx)(i.A,{className:"ml-2 h-5 w-5"}),"guide"===eE?"... بانتظار الضغط":eM?eM.display:"اضغط هنا لتسجيل الزر"]}),(0,a.jsx)("p",{className:"text-xs text-muted-foreground mt-2",children:"هذا الزر سيقوم بإظهار نافذة تحتوي على كل اختصاراتك."})]})]})]}),(0,a.jsxs)(eo,{size:"lg",className:"w-full max-w-sm text-lg px-8 py-8",onClick:eH,disabled:0===ea.length&&!ee||!eA.trim()||eT&&!eM,children:[(0,a.jsx)(f.A,{className:"ml-2 h-6 w-6"}),"توليد ملف AHK النهائي"]})]});default:return null}};return t?(0,a.jsxs)("div",{className:(0,k.cn)("fixed inset-0 bg-background flex items-center justify-center z-50 transition-opacity duration-1000","exiting"===C?"opacity-0":"opacity-100"),children:[(0,a.jsxs)("div",{
